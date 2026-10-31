@@ -19,16 +19,6 @@ A console banking application written in C++ using object-oriented programming. 
 - C++ (Visual Studio, Windows only)
 - Data stored in text files: `Clients.txt`, `Users.txt`, `Currencies.txt`, `LoginRegister.txt`, `TransfersLog.txt`
 
-## How to Run
-1. Clone the repository
-2. Open the `.sln` file in Visual Studio
-3. Make sure the `.txt` data files are in the project working directory
-4. Press **F5**
-5. Demo login: `User2` / `1234` (full access)
-
 ## Notes
 - Passwords are stored with a simple character-shift cipher. It is for learning only and is not secure.
 - Built while following the Programming Advices C++ course; helper classes such as `clsString`, `clsDate`, and `clsInputValidate` come from the course.
-
-## Screenshots
-![Main menu](screenshots/main-menu.png)
